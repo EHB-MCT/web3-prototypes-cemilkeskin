@@ -1,0 +1,59 @@
+.todo-menu{
+    background-color: #363636;
+    max-width: 1300px;  
+    height: 860px; 
+    margin: 15px 15px 15px 280px; 
+    padding: 15px 5px 15px 0px; 
+    justify-content: space-between;
+    border-radius: 20px;  
+    position: relative;
+} 
+
+.todo-menu-container{
+
+    padding: 15px 30px;
+
+}
+.inputf{
+
+    display: block;
+    width: 600px;
+    height: 50px;
+    padding: 12px 20px; 
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: none;
+    opacity: 0.7;
+    transition: all 0.3s;    
+}
+
+.inputf-active{
+  
+    transition: 0.3s;
+    display: none;
+
+}
+
+.inputf:focus{
+opacity: 0.9;
+}
+.add{ 
+    position: absolute;
+    top: 30px;
+    right: 30px; 
+    color: green; 
+    transition: 0.3s;
+} 
+ 
+.add:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.title{
+    margin-top: 20px;
+    color: white;
+    font-weight: 900;
+    font-size: 26px;
+}
