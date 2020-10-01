@@ -1,19 +1,112 @@
 .todo-menu{
     background-color: #363636;
     max-width: 1300px;  
-    height: 860px; 
+    height: 800px; 
     margin: 15px 15px 15px 280px; 
     padding: 15px 5px 15px 0px; 
     justify-content: space-between;
     border-radius: 20px;  
     position: relative;
+    overflow-x: scroll;
 } 
+
+
+.buttons{
+    display: inline-block;
+    position: absolute;
+    top: 53%;
+right: 0;
+-webkit-transform: translate(-50%, -50%);
+-moz-transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+-o-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+    right: 0;
+}
+
+.checkbutton{
+
+    color: green; 
+    transition: 0.3s;
+    display: inline-block;
+    margin-right: 10px;
+    opacity: 0.92;
+    transition: 0.3s;
+
+}
+
+.checkbutton:active{
+
+    color: gray; 
+    cursor: alias; 
+
+}
+
+.checkbutton:hover{
+
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+
+.deletebutton{
+    color: crimson; 
+    transition: 0.3s;
+    display: inline-block;
+}
+
+.deletebutton:hover{ 
+
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+
+.todo-list{
+    overflow-x: scroll;
+}
+
+.todo{
+    color: white; 
+    padding: 5px 25px 5px 25px;
+    width: 75%;
+    overflow-wrap: break-word;
+}
+ 
+.todo-text{
+    color: white; 
+    padding: 5px 25px 5px 25px;
+    width: 100%;
+}
+
+.todo-border{
+    position: relative;
+    background-color: #1D1D1D;
+    width: 35%;
+    margin: 15px 15px 15px 15px; 
+    padding: 15px 5px 15px 0px; 
+  
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.todo-info{
+    background-color: #1A83FF;
+    width: 35%;
+    margin: 15px 15px 30px 0px; 
+    padding: 10px 0px 10px 0px; 
+  
+    border-radius: 7px;
+}
 
 .todo-menu-container{
 
-    padding: 15px 30px;
-
+    padding: 15px 50px;
+  
 }
+
 .inputf{
 
     display: block;
@@ -26,6 +119,8 @@
     border: none;
     opacity: 0.7;
     transition: all 0.3s;    
+    position: absolute;
+    left: 20%;
 }
 
 .inputf-active{
@@ -48,11 +143,12 @@ opacity: 0.9;
  
 .add:hover{
     opacity: 0.6;
-    cursor: pointer;
+    cursor: pointer; 
 }
 
 .title{
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     color: white;
     font-weight: 900;
     font-size: 26px;
