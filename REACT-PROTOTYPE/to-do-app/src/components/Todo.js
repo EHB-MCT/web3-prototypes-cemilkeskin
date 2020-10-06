@@ -16,7 +16,7 @@ function TodoShow({ todo, index, completeTodo, removeTodo }) {
        <div
       className="todo" 
       style={{ textDecoration: todo.isCompleted ? "line-through" : "" }}
-    >
+    > 
 
       {/* if todo.url is true then make audio else do todo.text */} 
       {todo.url ? <Audio audioUrl={todo.url}/> : todo.text}
