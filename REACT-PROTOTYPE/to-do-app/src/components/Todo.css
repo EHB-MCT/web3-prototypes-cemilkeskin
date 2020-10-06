@@ -7,6 +7,7 @@
     justify-content: space-between;
     border-radius: 20px;  
     position: relative;
+    overflow-x: hidden;
     overflow-x: scroll;
 } 
 
@@ -63,11 +64,6 @@ transform: translate(-50%, -50%);
 
 }
 
-
-.todo-list{
-    overflow-x: scroll;
-}
-
 .todo{
     color: white; 
     padding: 5px 25px 5px 25px;
@@ -77,14 +73,14 @@ transform: translate(-50%, -50%);
  
 .todo-text{
     color: white; 
-    padding: 5px 25px 5px 25px;
+    padding: 5px 25px 5px 25px; 
     width: 100%;
 }
 
 .todo-border{
     position: relative;
     background-color: #1D1D1D;
-    width: 35%;
+    width: 40%;
     margin: 15px 15px 15px 15px; 
     padding: 15px 5px 15px 0px; 
   
@@ -137,7 +133,7 @@ opacity: 0.9;
     position: absolute;
     top: 30px;
     right: 30px; 
-    color: green; 
+  color: #1A83FF; 
     transition: 0.3s;
 } 
  

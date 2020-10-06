@@ -3,8 +3,10 @@ import Navbar from './components/Navbar'
 import Todo from './components/Todo'
 import './App.css'; 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-
+ 
 function App() {
+
+  
 
   return (
 
