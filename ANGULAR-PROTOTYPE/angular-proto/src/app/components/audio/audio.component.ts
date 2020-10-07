@@ -55,18 +55,15 @@ export class AudioComponent implements OnInit {
   }
 
   changeRate(){
-   
     this.sound.rate(this.sliderRateValue); 
     console.log(this.sound.rate);
   }
 
   changeLoop(){
-   
     console.log("clicked");
     this.sound.loop(this.buttonValue);
     console.log(this.sound.loop);
     console.log(Howler);
-    
   }
 }
 
