@@ -161,6 +161,7 @@ useEffect(() => {
             <div className="todo-menu-container">
 
             <div className={isActive ? 'inputf-active': null}>
+
             <TodoAdd addTodo={addTodo} />
             
             </div>  
@@ -196,7 +197,7 @@ useEffect(() => {
                 index={index}
                 todo={todo}
                 completeTodo={completeTodo}
-                removeTodo={removeTodo} 
+                removeTodo={removeTodo}  
             /> 
         ))} 
         
