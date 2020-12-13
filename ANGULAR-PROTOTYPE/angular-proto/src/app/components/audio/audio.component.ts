@@ -34,7 +34,7 @@ export class AudioComponent implements OnInit {
     Howler.volume(0.5);
     this.sound.play();
 
-    console.log(this.sound);
+    console.log(this.sound); 
     this.slider = document.querySelector('.volume');
     this.button = document.querySelector('.button');
     this.sliderRate = document.querySelector('.rate');
